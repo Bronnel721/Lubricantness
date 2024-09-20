@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1726417385
-ModificationTime: 1726867439
+ModificationTime: 1726867543
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -42,6 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'ZAM '
+Lookup: 1 0 0 "'sups' Superscript in Latin lookup 0" { "'sups' Superscript in Latin lookup 0 subtable" ("superior") } ['sups' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 1" { "'kern' Horizontal Kerning in Latin lookup 1-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -78,7 +79,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 65536 121
+BeginChars: 65536 123
 
 StartChar: I
 Encoding: 73 73 0
@@ -833,6 +834,7 @@ SplineSet
  560.340191296 63.606476538 589 0 589 0 c 1x7c
 EndSplineSet
 Kerns2: 44 20 "'kern' Horizontal Kerning in Latin lookup 1-1" 65 -30 "'kern' Horizontal Kerning in Latin lookup 1-1" 64 -30 "'kern' Horizontal Kerning in Latin lookup 1-1" 71 -30 "'kern' Horizontal Kerning in Latin lookup 1-1" 27 -140 "'kern' Horizontal Kerning in Latin lookup 1-1" 9 -120 "'kern' Horizontal Kerning in Latin lookup 1-1"
+Substitution2: "'sups' Superscript in Latin lookup 0 subtable" a.superior
 EndChar
 
 StartChar: t
@@ -1309,6 +1311,7 @@ SplineSet
  136.221799429 -10.06640625 25 92.9886855259 25 254.93359375 c 0
 EndSplineSet
 Kerns2: 27 -120 "'kern' Horizontal Kerning in Latin lookup 1-1" 9 -140 "'kern' Horizontal Kerning in Latin lookup 1-1"
+Substitution2: "'sups' Superscript in Latin lookup 0 subtable" o.superior
 EndChar
 
 StartChar: b
@@ -2931,6 +2934,61 @@ SplineSet
  1 533.005859375 l 5
  63.3662109375 595.372070312 l 5
  150.110351562 508.62890625 l 5
+EndSplineSet
+EndChar
+
+StartChar: ordfeminine
+Encoding: 170 170 121
+Width: 396
+Flags: W
+HStem: 384.992 65<111 233.383> 551.992 57<111 227.507> 667.992 71<74.0103 211.847>
+VStem: 17 130<455.498 545.111> 228 146<436.008 512.992 582.992 650.836> 246 40<457.492 536.992>
+LayerCount: 2
+Fore
+SplineSet
+246 504.9921875 m 4xf4
+ 246 519.9921875 231 551.9921875 192 551.9921875 c 4
+ 162 551.9921875 147 530.9921875 147 497.9921875 c 4
+ 147 467.9921875 162 449.9921875 189 449.9921875 c 4
+ 230 449.9921875 246 477.9921875 246 504.9921875 c 4xf4
+286 500.9921875 m 4
+ 286 436.9921875 234 384.9921875 152 384.9921875 c 4
+ 70 384.9921875 17 426.9921875 17 493.9921875 c 4
+ 17 563.9921875 70 608.9921875 152 608.9921875 c 4
+ 234 608.9921875 286 553.9921875 286 500.9921875 c 4
+393 393.9921875 m 5
+ 251 391.9921875 l 5
+ 251 391.9921875 228 417.9921875 228 501.9921875 c 6
+ 228 593.9921875 l 6
+ 228 640.9921875 207 667.9921875 160 667.9921875 c 4
+ 106 667.9921875 64 641.9921875 64 641.9921875 c 5
+ 41 699.9921875 l 5
+ 41 699.9921875 92 738.9921875 195 738.9921875 c 4
+ 304 738.9921875 371.400326464 694.969335021 373 582.9921875 c 6
+ 374 512.9921875 l 6xf8
+ 375.099775556 436.007898579 393 393.9921875 393 393.9921875 c 5
+EndSplineSet
+EndChar
+
+StartChar: ordmasculine
+Encoding: 186 186 122
+Width: 413
+Flags: W
+HStem: 383.992 66<179.606 234.394> 673.992 65<179.606 234.394>
+VStem: 17 148<471.113 651.443> 249 148<471.113 651.443>
+LayerCount: 2
+Fore
+SplineSet
+165 561.9921875 m 4
+ 165 492.9921875 178 449.9921875 207 449.9921875 c 4
+ 236 449.9921875 249 492.9921875 249 561.9921875 c 4
+ 249 630.9921875 236 673.9921875 207 673.9921875 c 4
+ 178 673.9921875 165 630.9921875 165 561.9921875 c 4
+17 560.9921875 m 4
+ 17 669.9921875 91 738.9921875 207 738.9921875 c 4
+ 323 738.9921875 397 669.9921875 397 560.9921875 c 4
+ 397 452.9921875 323 383.9921875 207 383.9921875 c 4
+ 91 383.9921875 17 452.9921875 17 560.9921875 c 4
 EndSplineSet
 EndChar
 EndChars
