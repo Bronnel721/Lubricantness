@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1726417385
-ModificationTime: 1726937516
+ModificationTime: 1726937677
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -82,7 +82,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 65557 227
+BeginChars: 65557 228
 
 StartChar: I
 Encoding: 73 73 0
@@ -5588,6 +5588,23 @@ SplineSet
  20 654 l 1
  20 731 l 1
 EndSplineSet
+EndChar
+
+StartChar: notequal
+Encoding: 8800 8800 227
+Width: 450
+Flags: W
+HStem: 220 102<15 435> 406 102<15 435>
+LayerCount: 2
+Fore
+SplineSet
+38 135.530273438 m 5
+ 293 598.403320312 l 5
+ 412 598.403320312 l 5
+ 157 135.530273438 l 5
+ 38 135.530273438 l 5
+EndSplineSet
+Refer: 59 61 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
