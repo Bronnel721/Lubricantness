@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1726417385
-ModificationTime: 1727038344
+ModificationTime: 1727137225
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8289 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -82,7 +82,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 65557 250
+BeginChars: 65557 259
 
 StartChar: I
 Encoding: 73 73 0
@@ -6166,6 +6166,140 @@ SplineSet
  385.3984375 657 l 5x18
 EndSplineSet
 Refer: 20 67 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 250
+Width: 347
+Flags: W
+HStem: 216 96<15 332>
+VStem: 15 317<216 312>
+LayerCount: 2
+Fore
+SplineSet
+15 216 m 1
+ 15 312 l 1
+ 332 312 l 1
+ 332 216 l 1
+ 15 216 l 1
+EndSplineSet
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 251
+Width: 547
+Flags: W
+HStem: 216 96<15 532>
+LayerCount: 2
+Fore
+SplineSet
+15 216 m 1
+ 15 312 l 1
+ 532 312 l 5
+ 532 216 l 5
+ 15 216 l 1
+EndSplineSet
+EndChar
+
+StartChar: emdash
+Encoding: 8212 8212 252
+Width: 777
+Flags: W
+HStem: 216 96<15 762>
+LayerCount: 2
+Fore
+SplineSet
+15 216 m 1
+ 15 312 l 1
+ 762 312 l 5
+ 762 216 l 5
+ 15 216 l 1
+EndSplineSet
+EndChar
+
+StartChar: minute
+Encoding: 8242 8242 253
+Width: 241
+Flags: W
+HStem: 506 255<63 115>
+VStem: 1 239
+LayerCount: 2
+Fore
+SplineSet
+63 761 m 1
+ 240 761 l 5
+ 115 506 l 5
+ 1 506 l 1
+ 63 761 l 1
+EndSplineSet
+EndChar
+
+StartChar: second
+Encoding: 8243 8243 254
+Width: 462
+Flags: W
+HStem: 506 255<63 115 284 336>
+VStem: 1 239 222 239
+LayerCount: 2
+Fore
+Refer: 253 8242 S 1 0 0 1 221 0 2
+Refer: 253 8242 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2034
+Encoding: 8244 8244 255
+Width: 683
+Flags: W
+HStem: 506 255<63 115 284 336 505 557>
+VStem: 1 239 222 239 443 239
+LayerCount: 2
+Fore
+Refer: 253 8242 S 1 0 0 1 442 0 2
+Refer: 253 8242 N 1 0 0 1 221 0 2
+Refer: 253 8242 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2E18
+Encoding: 11800 11800 256
+Width: 595
+Flags: W
+HStem: -228.067 115.394<310.293 479.201> 329.992 191<275.432 432.129>
+VStem: 25.1794 257.086<-85.7762 29.2138> 238.441 231<366.128 485.233> 337.941 131<-29.0742 29.5748>
+LayerCount: 2
+Fore
+Refer: 148 8253 S -1 0 0 -1 595.941 510.926 2
+EndChar
+
+StartChar: uni2E3A
+Encoding: 11834 11834 257
+Width: 967
+Flags: W
+HStem: 216 96<15 952>
+LayerCount: 2
+Fore
+SplineSet
+15 312 m 1
+ 952 312 l 5
+ 952 216 l 5
+ 15 216 l 1
+ 15 312 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2E3B
+Encoding: 11835 11835 258
+Width: 1147
+Flags: W
+HStem: 216 96<15 1132>
+LayerCount: 2
+Fore
+SplineSet
+15 312 m 1
+ 1132 312 l 5
+ 1132 216 l 5
+ 15 216 l 1
+ 15 312 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
