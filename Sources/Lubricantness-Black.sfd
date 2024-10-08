@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1726417385
-ModificationTime: 1728356184
+ModificationTime: 1728356345
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -1114,24 +1114,23 @@ StartChar: four
 Encoding: 52 52 40
 Width: 709
 Flags: W
-HStem: 0 21G<321.6 579.6> 186.645 96<137.369 694> 711 20G<355.693 579.6>
-VStem: 321.6 258<0 515.05>
+HStem: 0 21G<321.6 579.6> 176.645 96<137.369 694> 711 20G<356.04 579.6>
+VStem: 321.6 258<0 505.05>
 LayerCount: 2
 Fore
 SplineSet
-15 282.64453125 m 1
+15 272.64453125 m 1
  371.599609375 731 l 1
  579.599609375 731 l 1
  579.599609375 0 l 1
  321.599609375 0 l 1
- 321.599609375 515.049804688 l 1
- 137.369140625 282.64453125 l 1
- 694 282.64453125 l 5
- 694 186.64453125 l 5
- 25 186.64453125 l 1
- 15 282.64453125 l 1
+ 321.599609375 505.049804688 l 5
+ 137.369140625 272.64453125 l 1
+ 694 272.64453125 l 1
+ 694 176.64453125 l 1
+ 25 176.64453125 l 1
+ 15 272.64453125 l 1
 EndSplineSet
-Validated: 5
 Kerns2: 36 -70 "'kern' Horizontal Kerning in Latin lookup 1-1" 45 -60 "'kern' Horizontal Kerning in Latin lookup 1-1"
 Substitution2: "'dnom' Denominators lookup 0 subtable" four.dnom
 Substitution2: "'numr' Numerators lookup 0 subtable" four.numr
@@ -4468,22 +4467,22 @@ EndChar
 StartChar: four.superior
 Encoding: 8308 8308 182
 Width: 472
-HStem: 476 65<91 462>
-VStem: 214 172<350 690>
+HStem: 470 65<91 462>
+VStem: 214 172<350 683>
 LayerCount: 2
 Fore
 SplineSet
-10 538 m 1
- 247 837 l 5
- 386 837 l 5
+10 532 m 1
+ 247 837 l 1
+ 386 837 l 1
  386 350 l 1
  214 350 l 1
- 214 690 l 1
- 91 541 l 1
- 462 541 l 1
- 462 476 l 1
- 17 476 l 1
- 10 538 l 1
+ 214 683 l 5
+ 91 535 l 1
+ 462 535 l 1
+ 462 470 l 1
+ 17 470 l 1
+ 10 532 l 1
 EndSplineSet
 EndChar
 
@@ -4707,22 +4706,22 @@ EndChar
 StartChar: four.inferior
 Encoding: 8324 8324 192
 Width: 472
-HStem: -224 65<91 462>
-VStem: 214 172<-350 -9>
+HStem: -230 65<91 462>
+VStem: 214 172<-350 -15>
 LayerCount: 2
 Fore
 SplineSet
-10 -162 m 1
+10 -168 m 1
  247 137 l 1
  386 137 l 1
  386 -350 l 1
  214 -350 l 1
- 214 -9 l 1
- 91 -159 l 1
- 462 -159 l 5
- 462 -224 l 5
- 17 -224 l 1
- 10 -162 l 1
+ 214 -15 l 5
+ 91 -165 l 1
+ 462 -165 l 1
+ 462 -230 l 1
+ 17 -230 l 1
+ 10 -168 l 1
 EndSplineSet
 EndChar
 
@@ -4945,22 +4944,22 @@ EndChar
 StartChar: four.numr
 Encoding: 65541 -1 202
 Width: 472
-HStem: 385 64<91 462>
-VStem: 214 172<256 602>
+HStem: 376 65<91 462>
+VStem: 214 172<256 590>
 LayerCount: 2
 Fore
 SplineSet
-10 448 m 1
- 247 746 l 1
- 386 746 l 1
+10 438 m 1
+ 247 743 l 1
+ 386 743 l 1
  386 256 l 1
  214 256 l 1
- 214 602 l 1
- 91 449 l 1
- 462 449 l 5
- 462 385 l 5
- 17 385 l 1
- 10 448 l 1
+ 214 590 l 5
+ 91 441 l 1
+ 462 441 l 1
+ 462 376 l 1
+ 17 376 l 1
+ 10 438 l 1
 EndSplineSet
 EndChar
 
@@ -5184,22 +5183,22 @@ EndChar
 StartChar: four.dnom
 Encoding: 65551 -1 212
 Width: 472
-HStem: 0 21G<214 386> 126 65<91 462>
-VStem: 214 172<0 341>
+HStem: 0 21G<214 386> 120 65<91 462>
+VStem: 214 172<0 335>
 LayerCount: 2
 Fore
 SplineSet
-10 189 m 1
+10 183 m 1
  247 487 l 1
  386 487 l 1
  386 0 l 1
  214 0 l 1
- 214 341 l 1
- 91 191 l 1
- 462 191 l 5
- 462 126 l 5
- 17 126 l 1
- 10 189 l 1
+ 214 335 l 5
+ 91 185 l 1
+ 462 185 l 1
+ 462 120 l 1
+ 17 120 l 1
+ 10 183 l 1
 EndSplineSet
 EndChar
 
